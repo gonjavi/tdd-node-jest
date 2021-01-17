@@ -8,6 +8,7 @@ describe('Endpoints', () => {
         const axios = {
           get: jest.fn().mockResolvedValue({ data: 1}),
         }
+        // mock
         const res = {
           status: jest.fn().mockReturnThis(),
           send: jest.fn()
